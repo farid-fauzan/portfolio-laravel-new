@@ -1,11 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>@yield('title', 'Hyperspace')</title>
+    <title>Farid Fauzan | Fullstack Developer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" href="{{ asset('favicon.png') }}" type="image/png" />
     <noscript><link rel="stylesheet" href="{{ asset('assets/css/noscript.css') }}" /></noscript>
 </head>
 <body class="is-preload">
