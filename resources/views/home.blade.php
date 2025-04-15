@@ -43,6 +43,21 @@
     <div class="inner">
         <h2 class="major">Projects</h2>
         <div class="grid-projects">
+
+            <!-- CodeCraft.co.id -->
+            <div class="project-card">
+                <img src="{{ asset('images/project-codecraft.png') }}" alt="CodeCraft" />
+                <h3>CodeCraft.co.id</h3>
+                <p>Company profile website for a software agency built on WordPress with a custom theme and VPS deployment.</p>
+                <a href="javascript:void(0);" class="button" style="background-color: #0f222f; color: white;"
+                    onclick="openModal(
+                        'CodeCraft.co.id',
+                        'A modern company profile website for a digital software agency, built using WordPress with a custom theme and optimized SEO structure. I handled the full setup including VPS provisioning (Ubuntu Server), database configuration using MariaDB, WordPress deployment, plugin integrations, and performance optimization for Lighthouse standards. Designed to showcase services, portfolios, and attract B2B leads.',
+                        ['WordPress', 'MariaDB', 'Ubuntu Server', 'Nginx', 'Custom Theme', 'SEO Optimization', 'VPS Deployment'],
+                        ['{{ asset('images/project-codecraft.png') }}']
+                    )">Details</a>
+            </div>
+
             <!-- SIKAP (Employee Management System) -->
             <div class="project-card">
                 <img src="{{ asset('images/project-sikap.png') }}" alt="SIKAP" />
